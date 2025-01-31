@@ -1,7 +1,7 @@
 import React from 'react';
 const  Hero = () => {
   return (
-    <div className="relative bg-white overflow-hidden">
+    <div className="relative bg-white mt-10 overflow-hidden">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-center">
         {/* Contenedor del texto */}
         <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:w-2/3 lg:pb-28 xl:pb-32">
@@ -32,7 +32,7 @@ const  Hero = () => {
         </div>
   
         {/* Imagen a la derecha en PC */}
-        <div className="lg:w-1/3 rounded-lg">
+        <div className="lg:w-1/3 md:h-[60vh] 2xl:h-[50vh] rounded-lg">
           <img
             className="h-56 w-full rounded-xl object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
             src="https://i.pinimg.com/736x/f0/57/3d/f0573df3fe50e1419845d2a3f54fd9c1.jpg"

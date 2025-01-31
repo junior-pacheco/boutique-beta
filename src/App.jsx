@@ -7,7 +7,7 @@ import About from "./components/About"
 import Footer from "./components/Footer"
 const App = () => {
   return (
-    <div className="min-h-screen bg-gray-50 pt-20">
+    <div className="min-h-screen bg-white pt-20">
       <Header />
       <main>
         <Hero />
