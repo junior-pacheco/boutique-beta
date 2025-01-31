@@ -5,11 +5,11 @@ import { ShoppingBag, User, Heart, Search, UserIcon as Female, UserIcon as Male,
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <div className="bg-black shadow-sm fixed top-0 left-0 right-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Top">
-        <div className="w-full py-4  flex items-center justify-between">
+    <div className="bg-black h-[7vh] md:h-[10vh] 2xl:h-[7vh] shadow-sm fixed top-0 left-0 right-0 z-50">
+      <div className="  h-full" aria-label="Top">
+        <div className="w-[95vw] 2xl:w-[98vw] h-full flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center">
+          <div className="flex ms-6 items-center">
             <a href="/">
               <span className="sr-only text-white">Tu Boutique</span>
               <div className="h-12 w-12 rounded-full overflow-hidden">
@@ -68,7 +68,7 @@ export default function Header() {
 
         {/* Menú desplegable en móvil */}
         {menuOpen && (
-          <div className="lg:hidden absolute top-24 left-[59%] -translate-x-1/2 w-[250px] bg-black text-white p-4 rounded-lg shadow-lg">
+          <div className="lg:hidden absolute top-16 left-[70%] -translate-x-1/2 w-[150px] bg-black text-white p-4 rounded-lg shadow-lg">
             <a href="#" className="flex items-center py-2 text-gray-300 hover:text-white">
               <Female className="w-5 h-5 mr-2" /> Mujer
             </a>
