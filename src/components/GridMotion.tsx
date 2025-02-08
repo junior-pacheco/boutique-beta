@@ -47,9 +47,9 @@ const GridMotion = ({ items = [], gradientColor = "black" }: { items?: string[];
   }, []);
 
   return (
-    <div className="noscroll loading" ref={gridRef}>
+    <div className="h-[0px] 2xl:h-full md:h-full w-full overflow-hidden rounded-3xl" ref={gridRef}>
       <section
-        className="intro"
+        className="w-full h-[100vh] 2xl:h-[80vh] overflow-hidden relative flex justify-center items-center"
         style={{ background: `radial-gradient(circle, ${gradientColor} 0%, transparent 100%)` }}
       >
         <div className="gridMotion-container">
